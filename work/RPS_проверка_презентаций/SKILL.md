@@ -1,9 +1,9 @@
----
-name: rps-english-presentation-check
-description: Audit English-language RPS (RedPointSchool) workshop presentations in Google Slides using the internal slide-check workflow. Use when you need to verify an English marathon/workshop deck day by day, compare current wording with previous days, check slide text and speaker notes separately, and report concise findings as `Соблюдено ✅` and `Нарушения ❌`.
+﻿---
+name: RPS_проверка_презентаций
+description: Проверка англоязычных презентаций RPS (RedPointSchool) в Google Slides по внутреннему чек-листу. Используй, когда нужно проверить текущий день марафона или воркшопа, сравнить формулировки с предыдущими днями, отдельно сверить текст на слайдах и заметки докладчика и выдать результат в формате `Соблюдено ✅` и `Нарушения ❌`.
 ---
 
-# RPS English Presentation Check
+# RPS_проверка_презентаций
 
 Use this skill to audit English-language RPS workshop presentations.
 
