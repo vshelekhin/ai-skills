@@ -1,0 +1,6 @@
+interface:
+  display_name: "Подготовка JPG картин"
+  short_description: "Готовит пронумерованный комплект JPG"
+  default_prompt: "Use $prepare-art-jpg to process artwork photos from this Google Drive folder: [folder URL]."
+policy:
+  allow_implicit_invocation: true
