@@ -1,0 +1,5 @@
+interface:
+  display_name: "ПЕРЕВОДЫ_чат"
+  short_description: "Проверка переводов чатов RU-EN и EN-RU"
+  default_prompt: "Use $perevody-chat to determine the translation direction, check webinar chat translations, and prepare a manager-ready correction list."
+
