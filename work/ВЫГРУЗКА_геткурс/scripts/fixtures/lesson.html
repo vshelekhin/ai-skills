@@ -1,0 +1,24 @@
+<!doctype html><meta charset="utf-8"><title>GetCourse collector fixture</title>
+<style>.hidden { display:none; } .background { width:40px;height:40px;background-image:url('diagram.png'); }</style>
+<nav>МЕНЮ — не выгружать</nav><input type="password" hidden>
+<h2 class="lesson-title-value">Урок 1. Материалы</h2>
+<div class="lite-page">
+  <p>Первый абзац с <b>важным</b> словом.<br>Новая строка.</p>
+  <p>Повтор.</p><p>Повтор.</p>
+  <ol start="3"><li>Первый пункт</li><li value="7">Седьмой пункт<ul><li>Подпункт</li></ul></li></ol>
+  <table><tr><th>Краска</th><th>Количество</th></tr><tr><td>Охра</td><td>2</td></tr></table>
+  <img src="preview.png" data-src="original.png" srcset="small.png 1x, large.png 2x" alt="ALT НЕ OCR">
+  <picture><source srcset="wide.png 900w"><img src="fallback.png"></picture>
+  <div class="background"></div>
+  <div class="hidden">СКРЫТЫЙ ТЕКСТ</div>
+  <details><summary>Открыть пояснение</summary>Дополнительный текст</details>
+  <iframe src="about:blank" title="Видео"></iframe>
+  <div class="o-lt-lesson-mission-block"><h3>Задание</h3><div class="lesson-mission-text"><p>Что понадобится?</p></div>
+    <div class="lesson-send-answer-block">Кнопка отправки ответа</div></div>
+  <div class="o-lt-lesson-comment-block">ЧУЖОЙ ОТВЕТ<img src="avatar.png"></div>
+</div>
+<ul class="lesson-list">
+  <li><a href="https://school.example/teach/control/lesson/view/id/1"><span class="title">Первый урок</span></a></li>
+  <li onclick="location.href='https://school.example/teach/control/lesson/view/id/2'">Скрыт от учеников</li>
+  <li data-lesson-id="3">Нет доступа к уроку</li>
+</ul>
