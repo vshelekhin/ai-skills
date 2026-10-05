@@ -1,0 +1,16 @@
+<!doctype html><meta charset="utf-8"><title>Landing collector fixture</title>
+<style>.closed {max-height:0;overflow:hidden}.strike{text-decoration:line-through}.bg{width:10px;height:10px;background-image:url('diagram.png')}</style>
+<main>
+<div id="intro">До заголовка<h1>Главный заголовок</h1><a href="#forms">После заголовка</a></div>
+<div class="adaptive"><p>Одинаковый блок</p><p>Полное описание</p></div>
+<div class="adaptive"><p>Одинаковый блок</p><p>Полное описание</p></div>
+<div class="tariff"><h2>Сам</h2><ul><li>Доступ</li><li class="strike">Проверка работ</li></ul><div class="price">7 990 ₽</div></div>
+<div class="tariff"><h2>С поддержкой</h2><ul><li>Доступ</li><li>Проверка работ</li></ul><div class="price">9 990 ₽</div></div>
+<section id="reviews"><img data-src="review-1.png" src="small.png" alt="Отзыв 1"><div class="clone"><img data-src="review-1.png" src="small.png" alt="Отзыв 1"></div><img data-src="review-2.png" alt="Отзыв 2"></section>
+<div class="bg"></div><picture><source srcset="wide.png 900w"><img src="small.png" srcset="small.png 1x, large.png 2x" alt="ALT НЕ OCR"></picture>
+<section id="faq"><button id="open" aria-expanded="false" onclick="document.querySelector('#answer').classList.remove('closed');this.setAttribute('aria-expanded','true')">Раскрыть FAQ</button><div id="answer" class="closed"><p>Ответ с <b>важным</b> словом.</p></div></section>
+<ol start="3"><li>Третий пункт</li><li value="7">Седьмой пункт<ul><li>Подпункт</li></ul></li></ol>
+<table><tr><th>Название</th><th>Количество</th></tr><tr><td>Краска</td><td>2</td></tr></table>
+<form id="forms"><label>Ваш email<input placeholder="Введите email"></label><input type="password" hidden><button type="button">Отправить</button></form>
+<p>Телефон +7 999 123 45 67</p><button type="button">☰</button>
+</main><footer>Юридический текст и контакты</footer>
